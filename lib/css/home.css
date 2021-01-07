@@ -1,0 +1,42 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: url('../img/footer_home.svg');
+  background-color: #ffffff;
+  padding-top: 76px;
+  background-repeat: repeat-x;
+  height: 100vh;
+  background-position: bottom center;
+}
+
+body::before {
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .home100-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+}
+
+@media (max-width: 992px) {
+  .home100-pic{
+    width: 20%;
+  }
+}
+
+.home100-pic {
+  width: 316px;
+}
+
+.home100-pic img {
+  max-width: 80%;
+}
+
+.limiter {
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
