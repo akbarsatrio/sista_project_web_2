@@ -25,6 +25,7 @@ nav {
 }
 
 nav .nav-link {
-  color: #171717 !important;
+  color: #171717;
+  margin: 0 .25rem;
 }
 /*# sourceMappingURL=starter.css.map */
